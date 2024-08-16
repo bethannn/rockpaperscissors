@@ -16,7 +16,8 @@ public class App {
             System.out.println("computer move: " + computerMove);
 
             isTie = game.playGame(userMove, computerMove);//// does play game with moves
-        } while (isTie); //if its a tie itll go again
+        }
+        while (isTie); //if its a tie itll go again
     }
 
     public boolean playGame(String userMove, String computerMove) { //horrible game logic, could probably do this better (switch statement?? come back)
