@@ -2,18 +2,20 @@ import java.util.Objects;
 
 public class App {
     public static void main(String[] args) {
-        App game = new App(); //outside do while need new game
+        App game = new App();//outside do while need new game
+
         boolean isTie;
         do {
             System.out.println("welcome to beths awesome rock paper scissors!!!");
 
             User newUser = new User(); //instances of user and computer to play each other
+            newUser.setName();
             Computer newComputer = new Computer();
 
             String userMove = newUser.setMoveFromInput(); //gets moves
             String computerMove = newComputer.computerMove();
 
-            System.out.println("user move: " + userMove); //so i know the moves are being gievn back rigt
+            System.out.println(newUser.getName() +"s move: " + userMove); //so i know the moves are being gievn back rigt
             System.out.println("computer move: " + computerMove);
 
             isTie = game.playGame(userMove, computerMove);//// does play game with moves
@@ -26,7 +28,7 @@ public class App {
             System.out.println("tie!!!!!! try again!");
             return true; //play again if tie
         } else if ("SCISSORS".equals(userMove) && "PAPER".equals(computerMove)) {
-            System.out.println("user wins!");
+            System.out.println("you win!");
             return false;
         } else if ("PAPER".equals(userMove) && "SCISSORS".equals(computerMove)) {
             System.out.println("computer wins!");
@@ -35,13 +37,13 @@ public class App {
             System.out.println("computer wins!");
             return false;
         } else if ("PAPER".equals(userMove) && "ROCK".equals(computerMove)) {
-            System.out.println("user wins!");
+            System.out.println("you win!");
             return false;
         } else if ("SCISSORS".equals(userMove) && "ROCK".equals(computerMove)) {
             System.out.println("computer wins!");
             return false;
         } else if ("ROCK".equals(userMove) && "SCISSORS".equals(computerMove)) {
-            System.out.println("user wins!");
+            System.out.println("you win!");
             return false;
         } else {
             System.out.println("bad input, try again using rock paper or scissors :(");
