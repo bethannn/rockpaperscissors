@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9d6d2a4-0d4a-4b3b-8cef-767ab0cf3e69" name="Changes" comment="delete unused game class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d9d6d2a4-0d4a-4b3b-8cef-767ab0cf3e69" name="Changes" comment="i forgot to make it play again if tie but it does now">
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Computer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +73,29 @@
       <option name="project" value="LOCAL" />
       <updated>1723811686039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="delete unused game class">
+      <option name="closed" value="true" />
+      <created>1723814482499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723814482499</updated>
+    </task>
+    <task id="LOCAL-00005" summary="i forgot to make it play again if tie but it does now">
+      <option name="closed" value="true" />
+      <created>1723814505540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723814505540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shouldve committed earlier :&lt;" />
     <MESSAGE value="delete unused game class" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete unused game class" />
+    <MESSAGE value="i forgot to make it play again if tie but it does now" />
+    <option name="LAST_COMMIT_MESSAGE" value="i forgot to make it play again if tie but it does now" />
   </component>
 </project>

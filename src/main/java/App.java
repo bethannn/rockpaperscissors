@@ -2,7 +2,7 @@ import java.util.Objects;
 
 public class App {
     public static void main(String[] args) {
-        App game = new App(); //outside of do while need new game
+        App game = new App(); //outside do while need new game
         boolean isTie;
         do {
 
@@ -20,7 +20,7 @@ public class App {
         while (isTie); //if its a tie itll go again
     }
 
-    public boolean playGame(String userMove, String computerMove) { //horrible game logic, could probably do this better (switch statement?? come back)
+    public boolean playGame(String userMove, String computerMove) { //horrible game logic, could probably do this better (switch statement?? come back) it now returns a boolean to make the tie thing work
         if (Objects.equals(userMove, computerMove)) {
             System.out.println("It's a tie!");
             return true; //play again if tie
