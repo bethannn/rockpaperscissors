@@ -5,6 +5,7 @@ public class App {
         App game = new App(); //outside do while need new game
         boolean isTie;
         do {
+            System.out.println("welcome to beths awesome rock paper scissors!!!");
 
             User newUser = new User(); //instances of user and computer to play each other
             Computer newComputer = new Computer();
@@ -22,28 +23,28 @@ public class App {
 
     public boolean playGame(String userMove, String computerMove) { //horrible game logic, could probably do this better (switch statement?? come back) it now returns a boolean to make the tie thing work
         if (Objects.equals(userMove, computerMove)) {
-            System.out.println("It's a tie!");
+            System.out.println("tie!!!!!! try again!");
             return true; //play again if tie
         } else if ("SCISSORS".equals(userMove) && "PAPER".equals(computerMove)) {
-            System.out.println("User wins!");
+            System.out.println("user wins!");
             return false;
         } else if ("PAPER".equals(userMove) && "SCISSORS".equals(computerMove)) {
-            System.out.println("Computer wins!");
+            System.out.println("computer wins!");
             return false;
         } else if ("ROCK".equals(userMove) && "PAPER".equals(computerMove)) {
-            System.out.println("Computer wins!");
+            System.out.println("computer wins!");
             return false;
         } else if ("PAPER".equals(userMove) && "ROCK".equals(computerMove)) {
-            System.out.println("User wins!");
+            System.out.println("user wins!");
             return false;
         } else if ("SCISSORS".equals(userMove) && "ROCK".equals(computerMove)) {
-            System.out.println("Computer wins!");
+            System.out.println("computer wins!");
             return false;
         } else if ("ROCK".equals(userMove) && "SCISSORS".equals(computerMove)) {
-            System.out.println("User wins!");
+            System.out.println("user wins!");
             return false;
         } else {
-            System.out.println("Invalid input.");
+            System.out.println("bad input, try again using rock paper or scissors :(");
             return true; //might as well have this here so it plays again on an invalid input!!!
         }
     }
