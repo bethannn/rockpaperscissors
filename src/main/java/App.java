@@ -9,7 +9,7 @@ public class App {
             System.out.println("welcome to beths awesome rock paper scissors!!!");
 
             User newUser = new User(); //instances of user and computer to play each other
-            newUser.setName();
+            newUser.setName(); //so they can have the same spit back to them
             Computer newComputer = new Computer();
 
             String userMove = newUser.setMoveFromInput(); //gets moves
@@ -29,7 +29,7 @@ public class App {
             return true; //play again if tie
         } else if ("SCISSORS".equals(userMove) && "PAPER".equals(computerMove)) {
             System.out.println("you win!");
-            return false;
+            return false; //probably a way that i dont need this (initialise as false????)
         } else if ("PAPER".equals(userMove) && "SCISSORS".equals(computerMove)) {
             System.out.println("computer wins!");
             return false;

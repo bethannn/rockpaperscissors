@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9d6d2a4-0d4a-4b3b-8cef-767ab0cf3e69" name="Changes" comment="yay!">
+    <list default="true" id="d9d6d2a4-0d4a-4b3b-8cef-767ab0cf3e69" name="Changes" comment="added name for user that is given back to them when they submit their move">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723814914159</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added name for user that is given back to them when they submit their move">
+      <option name="closed" value="true" />
+      <created>1723815597941</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723815597941</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,6 +124,7 @@
     <MESSAGE value="i forgot to make it play again if tie but it does now" />
     <MESSAGE value="commenting code" />
     <MESSAGE value="yay!" />
-    <option name="LAST_COMMIT_MESSAGE" value="yay!" />
+    <MESSAGE value="added name for user that is given back to them when they submit their move" />
+    <option name="LAST_COMMIT_MESSAGE" value="added name for user that is given back to them when they submit their move" />
   </component>
 </project>

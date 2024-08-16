@@ -8,12 +8,12 @@ public class User {
 
     public String setMoveFromInput() {
         System.out.println("what move will you do? (rock/paper/scissors)");
-        return user_input.next().toUpperCase();
+        return user_input.next().toUpperCase(); //makes sure its comparable with game logic statement
 
     }
 
-    public void setName() {
-        System.out.println("whats your name?!:");
+    public void setName() { //getter and setter
+        System.out.println("whats your name?!:"); //so they can have a name in the game
         this.name = user_input.next();
     }
 
