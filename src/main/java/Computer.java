@@ -10,8 +10,6 @@ public class Computer {
     public String computerMove(){
         Random r = new Random();
         int randomIndex = r.nextInt(possibleMoves.size()); //random index from list
-        String randomMove = possibleMoves.get(randomIndex); //gets the string from the index
-        System.out.println(randomMove);
-        return randomMove;
+        return possibleMoves.get(randomIndex); ////gets the string from the index and returns
     }
 }
